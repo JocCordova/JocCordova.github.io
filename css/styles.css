@@ -94,13 +94,15 @@
   transition: background 0.3s;
 }
 
-.cover-img{
-	position: absolute;
-left: 55%;
-top: -3%;
-bottom: 3.43%;
-	min-height: 500px !important;
+.highlight-fill {
+  background-color: var(--highlight);
+  color: var(--contrast) !important;
 }
+
+.highlight-fill:hover {
+  font-weight: bold;
+}
+
 /*  Muss weg!*/
 .nav {
 	position: absolute;
@@ -138,7 +140,7 @@ a {
 
 .logo:hover {
 	filter: invert(17%) sepia(92%) saturate(2669%) hue-rotate(190deg) brightness(96%) contrast(101%) var(--drop-shadow);
-	transition: 0.25s;
+	transition: 0.15s;
 }
 
 .logo-mobile {
