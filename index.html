@@ -26,7 +26,7 @@
 						<div class="uk-navbar-right">
 							<ul class="uk-navbar-nav uk-visible@s nav-primary">
 								<li class="uk-active uk-visible@m"><a href="" data-uk-icon="home"></a></li>
-								<li><a href="">About Me</a></li>
+								<li><a data-uk-scroll="duration: 500" href="#about-me">About Me</a></li>
 								<li><a href="">Experience</a></li>
 								<li><a href="">Projects</a></li>
 								<div class="uk-navbar-item uk-text-nowrap">
@@ -69,11 +69,31 @@
 			</div>
 			
 			<div class="uk-position-bottom-center uk-position-medium uk-position-z-index uk-text-center">
-				<a href="#content" data-uk-scroll="duration: 500" data-uk-icon="icon: arrow-down; ratio: 2"></a>
+				<a href="#about-me" data-uk-scroll="duration: 500" data-uk-icon="icon: arrow-down; ratio: 2"></a>
 			</div>
 			
 		</div>
 
+		<!-- /TOP -->
+		
+		<!-- ABOUT ME -->
+		<section id="about-me" class="uk-section uk-section-default">
+			
+			
+						<div class="uk-container uk-flex uk-child-width-1-2@l uk-flex-middle" data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
+							<div data-uk-scrollspy-class="uk-container uk-animation-slide-right-medium">
+								<h1 class="text-primary ">About Me</h1>
+								<h4 class="uk-margin-small-top">I am a Master of Science student in Computer Science at Heinrich Heine University Düsseldorf. My focus is on Data Science, and I am particularly interested in Fairness-Aware Machine Learning.
+								</h4><h4 class="uk-margin-small-top">I am constantly working to improve my skills through personal projects and new challenges. Open to new opportunities, to expand my knowledge of data science.
+								</h4>
+								
+							</div>
+						</div>
+			
+			</div>
+		</section>
+		<!-- /ABOUT ME -->
+		
 			<div class="uk-text-center uk-padding uk-padding-remove-horizontal">
 				<span class="uk-text-small uk-text-muted">© 2022 Joc Cordova</span>
 			</div>
@@ -86,7 +106,7 @@
 		<button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
 
         <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-            <li class="uk-parent"><a href="#">About Me</a></li>
+            <li class="uk-parent"><a href="#about-me">About Me</a></li>
             <li class="uk-parent"><a href="#">Experience</a></li>
 			<li class="uk-parent"><a href="#">Projects</a></li>
 			<br>
